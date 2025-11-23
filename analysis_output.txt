@@ -1,0 +1,77 @@
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 85.0.0 (92.0.0 available)
+  analyzer 7.7.1 (9.0.0 available)
+  bloc 8.1.4 (9.1.0 available)
+  bloc_test 9.1.7 (10.0.0 available)
+  characters 1.4.0 (1.4.1 available)
+  flutter_bloc 8.1.6 (9.1.1 available)
+  flutter_lints 5.0.0 (6.0.0 available)
+  get_it 7.7.0 (9.0.5 available)
+  intl 0.19.0 (0.20.2 available)
+  lints 5.1.1 (6.0.0 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.16.0 (1.17.0 available)
+  path_provider_foundation 2.4.4 (2.5.0 available)
+  test 1.26.2 (1.27.0 available)
+  test_api 0.7.6 (0.7.8 available)
+  test_core 0.6.11 (0.6.13 available)
+Got dependencies!
+16 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing OivanAssignmentHub...                                 
+
+warning • Unused import: 'dart:convert' • lib/core/service/cache_service.dart:1:8 • unused_import
+  error • Target of URI doesn't exist: '../../user_list/data/models/user_model.dart' • lib/features/bookmark/data/datasources/bookmark_local_datasource.dart:3:8 • uri_does_not_exist
+  error • The name 'UserModel' isn't a type, so it can't be used as a type argument • lib/features/bookmark/data/datasources/bookmark_local_datasource.dart:6:15 • non_type_as_type_argument
+  error • Undefined class 'UserModel' • lib/features/bookmark/data/datasources/bookmark_local_datasource.dart:7:29 • undefined_class
+   info • The constant name 'CACHED_USERS' isn't a lowerCamelCase identifier • lib/features/bookmark/data/datasources/bookmark_local_datasource.dart:13:23 • constant_identifier_names
+  error • The name 'UserModel' isn't a type, so it can't be used as a type argument • lib/features/bookmark/data/datasources/bookmark_local_datasource.dart:18:15 • non_type_as_type_argument
+  error • Undefined name 'UserModel' • lib/features/bookmark/data/datasources/bookmark_local_datasource.dart:22:37 • undefined_identifier
+  error • Undefined class 'UserModel' • lib/features/bookmark/data/datasources/bookmark_local_datasource.dart:29:29 • undefined_class
+  error • The name 'UserModel' isn't a type, so it can't be used as a type argument • lib/features/bookmark/data/datasources/bookmark_local_datasource.dart:30:10 • non_type_as_type_argument
+  error • The property 'userId' can't be unconditionally accessed because the receiver can be 'null' • lib/features/bookmark/data/datasources/bookmark_local_datasource.dart:31:41 • unchecked_use_of_nullable_value
+  error • The name 'UserModel' isn't a type, so it can't be used as a type argument • lib/features/bookmark/data/datasources/bookmark_local_datasource.dart:39:10 • non_type_as_type_argument
+  error • The property 'userId' can't be unconditionally accessed because the receiver can be 'null' • lib/features/bookmark/data/datasources/bookmark_local_datasource.dart:40:44 • unchecked_use_of_nullable_value
+  error • The name 'UserModel' isn't a type, so it can't be used as a type argument • lib/features/bookmark/data/datasources/bookmark_local_datasource.dart:44:32 • non_type_as_type_argument
+  error • The method 'toJson' can't be unconditionally invoked because the receiver can be 'null' • lib/features/bookmark/data/datasources/bookmark_local_datasource.dart:45:68 • unchecked_use_of_nullable_value
+  error • Target of URI doesn't exist: '../../user_list/data/models/user_model.dart' • lib/features/bookmark/data/repositories/bookmark_repository.dart:1:8 • uri_does_not_exist
+  error • The name 'UserModel' isn't a type, so it can't be used as a type argument • lib/features/bookmark/data/repositories/bookmark_repository.dart:5:15 • non_type_as_type_argument
+  error • Undefined class 'UserModel' • lib/features/bookmark/data/repositories/bookmark_repository.dart:6:29 • undefined_class
+  error • The name 'UserModel' isn't a type, so it can't be used as a type argument • lib/features/bookmark/data/repositories/bookmark_repository.dart:16:15 • non_type_as_type_argument
+  error • The method 'copyWith' can't be unconditionally invoked because the receiver can be 'null' • lib/features/bookmark/data/repositories/bookmark_repository.dart:18:37 • unchecked_use_of_nullable_value
+  error • Undefined class 'UserModel' • lib/features/bookmark/data/repositories/bookmark_repository.dart:22:29 • undefined_class
+  error • Target of URI doesn't exist: '../../reputation/data/models/reputation_model.dart' • lib/features/reputation/data/repositories/reputation_repository.dart:1:8 • uri_does_not_exist
+  error • Target of URI doesn't exist: '../../user_list/data/datasources/user_remote_datasource.dart' • lib/features/reputation/data/repositories/reputation_repository.dart:2:8 • uri_does_not_exist
+  error • The name 'ReputationModel' isn't a type, so it can't be used as a type argument • lib/features/reputation/data/repositories/reputation_repository.dart:5:15 • non_type_as_type_argument
+  error • Undefined class 'UserRemoteDataSource' • lib/features/reputation/data/repositories/reputation_repository.dart:9:9 • undefined_class
+  error • The name 'ReputationModel' isn't a type, so it can't be used as a type argument • lib/features/reputation/data/repositories/reputation_repository.dart:14:15 • non_type_as_type_argument
+  error • Target of URI doesn't exist: '../../reputation/data/models/reputation_model.dart' • lib/features/user_list/data/datasources/user_remote_datasource.dart:3:8 • uri_does_not_exist
+  error • The name 'ReputationModel' isn't a type, so it can't be used as a type argument • lib/features/user_list/data/datasources/user_remote_datasource.dart:7:15 • non_type_as_type_argument
+  error • The name 'ReputationModel' isn't a type, so it can't be used as a type argument • lib/features/user_list/data/datasources/user_remote_datasource.dart:31:15 • non_type_as_type_argument
+  error • Undefined name 'ReputationModel' • lib/features/user_list/data/datasources/user_remote_datasource.dart:42:32 • undefined_identifier
+  error • Undefined class 'UserListCubit' • lib/features/user_list/presentation/pages/user_list_page.dart:20:8 • undefined_class
+  error • The name 'UserListCubit' isn't a type, so it can't be used as a type argument • lib/features/user_list/presentation/pages/user_list_page.dart:73:30 • non_type_as_type_argument
+  error • The name 'UserListState' isn't a type, so it can't be used as a type argument • lib/features/user_list/presentation/pages/user_list_page.dart:73:45 • non_type_as_type_argument
+  error • The property 'status' can't be unconditionally accessed because the receiver can be 'null' • lib/features/user_list/presentation/pages/user_list_page.dart:75:25 • unchecked_use_of_nullable_value
+  error • Undefined name 'UserListStatus' • lib/features/user_list/presentation/pages/user_list_page.dart:75:35 • undefined_identifier
+  error • The property 'users' can't be unconditionally accessed because the receiver can be 'null' • lib/features/user_list/presentation/pages/user_list_page.dart:76:25 • unchecked_use_of_nullable_value
+  error • The property 'status' can't be unconditionally accessed because the receiver can be 'null' • lib/features/user_list/presentation/pages/user_list_page.dart:80:32 • unchecked_use_of_nullable_value
+  error • Undefined name 'UserListStatus' • lib/features/user_list/presentation/pages/user_list_page.dart:80:42 • undefined_identifier
+  error • The property 'users' can't be unconditionally accessed because the receiver can be 'null' • lib/features/user_list/presentation/pages/user_list_page.dart:81:25 • unchecked_use_of_nullable_value
+  error • The property 'errorMessage' can't be unconditionally accessed because the receiver can be 'null' • lib/features/user_list/presentation/pages/user_list_page.dart:82:49 • unchecked_use_of_nullable_value
+  error • The property 'users' can't be unconditionally accessed because the receiver can be 'null' • lib/features/user_list/presentation/pages/user_list_page.dart:83:32 • unchecked_use_of_nullable_value
+  error • The property 'hasReachedMax' can't be unconditionally accessed because the receiver can be 'null' • lib/features/user_list/presentation/pages/user_list_page.dart:89:34 • unchecked_use_of_nullable_value
+  error • The property 'users' can't be unconditionally accessed because the receiver can be 'null' • lib/features/user_list/presentation/pages/user_list_page.dart:90:29 • unchecked_use_of_nullable_value
+  error • The property 'users' can't be unconditionally accessed because the receiver can be 'null' • lib/features/user_list/presentation/pages/user_list_page.dart:91:29 • unchecked_use_of_nullable_value
+  error • The property 'users' can't be unconditionally accessed because the receiver can be 'null' • lib/features/user_list/presentation/pages/user_list_page.dart:93:38 • unchecked_use_of_nullable_value
+  error • The property 'users' can't be unconditionally accessed because the receiver can be 'null' • lib/features/user_list/presentation/pages/user_list_page.dart:98:38 • unchecked_use_of_nullable_value
+   info • Parameter 'key' could be a super parameter • lib/shared_widgets/stateless/custom_app_page.dart:4:9 • use_super_parameters
+   info • 'WillPopCallback' is deprecated and shouldn't be used. Use PopInvokedCallback instead. This feature was deprecated after v3.12.0-1.0.pre • lib/shared_widgets/stateless/custom_app_page.dart:14:5 • deprecated_member_use
+warning • The value of the field '_withBackground' isn't used • lib/shared_widgets/stateless/custom_app_page.dart:27:14 • unused_field
+   info • 'WillPopCallback' is deprecated and shouldn't be used. Use PopInvokedCallback instead. This feature was deprecated after v3.12.0-1.0.pre • lib/shared_widgets/stateless/custom_app_page.dart:36:9 • deprecated_member_use
+   info • Statements in an if should be enclosed in a block • lib/shared_widgets/stateless/custom_app_page.dart:45:7 • curly_braces_in_flow_control_structures
+warning • The '!' will have no effect because the receiver can't be null • lib/shared_widgets/stateless/custom_app_page.dart:49:45 • unnecessary_non_null_assertion
+   info • Parameter 'key' could be a super parameter • lib/shared_widgets/stateless/custom_loading.dart:7:9 • use_super_parameters
+   info • Parameter 'key' could be a super parameter • lib/shared_widgets/stateless/custom_loading.dart:76:9 • use_super_parameters
+
